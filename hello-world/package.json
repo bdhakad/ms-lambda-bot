@@ -1,0 +1,28 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "watch": "nodemon ./index.js",
+    "lint": "eslint .",
+    "test": "mocha tests/unit/"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lex-runtime-v2": "^3.58.0",
+    "@microsoft/adaptivecards-tools": "^0.1.2",
+    "aws-serverless-express": "^3.3.6",
+    "botbuilder": "~4.14.0",
+    "botbuilder-dialogs": "~4.14.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.7"
+  }
+}

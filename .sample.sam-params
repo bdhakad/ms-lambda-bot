@@ -1,0 +1,5 @@
+ENV=dev
+MicrosoftAppId=yourMicrosoftAppId
+MicrosoftAppPassword=yourMicrosoftAppPassword
+BotId=yourBotId
+BotAliasId=yourBotAliasId

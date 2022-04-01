@@ -1,0 +1,66 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+    "version": "1.0.1",
+    "manifestVersion": "1.11",
+    "id": "a3825b73-d0df-450b-9567-268502a53bb2",
+    "packageName": "com.package.lambdaapp",
+    "name": {
+        "short": "Lambda-App",
+        "full": "Lambda-App"
+    },
+    "developer": {
+        "name": "Brajesh Dhakad",
+        "mpnId": "",
+        "websiteUrl": "https://example.com",
+        "privacyUrl": "https://example.com/privacy",
+        "termsOfUseUrl": "https://example.com/termsofuse"
+    },
+    "description": {
+        "short": "A sample lambda bot short description",
+        "full": "A sample lambda bot full description"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "bots":[
+        {
+            "botId": "b7fe2df6-0481-4044-89ec-0f27801dd2d8",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "welcome",
+                            "description": "Resend welcome card of this Bot"
+                        },
+                        {
+                            "title": "learn",
+                            "description": "Learn about Adaptive Card and Bot Command"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "accentColor": "#FFFFFF",
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
